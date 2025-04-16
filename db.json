@@ -1,9 +1,37 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "teams": [
+    {
+      "id": "Team A",
+      "name": "Team A",
+      "members": [
+        {
+          "name": "Alice"
+        },
+        {
+          "name": "Bobs"
+        }
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "scores": [
+    {
+      "team": "Team A",
+      "station": "Station 1",
+      "score": 33,
+      "id": "Team A_Station 1"
+    },
+    {
+      "team": "Team A",
+      "station": "Station 2",
+      "score": 50,
+      "id": "Team A_Station 2"
+    },
+    {
+      "team": "Team A",
+      "station": "Station 4",
+      "score": 44,
+      "id": "Team A_Station 4"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "notes": []
 }
